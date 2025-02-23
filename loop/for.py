@@ -13,10 +13,5 @@ for i in range(2, 8):
 
 print("\n")
 print("range com 3 parâmetros (2, 8, 3)")
-for i in range(2, 8, 3):
-    print("valor de i:", i)
-
-    
-
- 
-
+for i in range(2, 8, 3): 
+    print("valor de i:", i) # 3 parâmetro l, m, n: l dita quak numero começa, m a partir de que número para, n incrementa
