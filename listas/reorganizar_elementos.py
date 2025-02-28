@@ -19,6 +19,8 @@ print(f"\nvar1 = {var1}, var2 = {var2}")
 lista = [1, 2, 3, 4, 5]
 tamanho = len(lista)
 
+#logica - dessa forma, troca o primeiro pelo ultimo, segundo pelo penultimo...
+
 for i in range(tamanho // 2):
     lista[i], lista[tamanho - i - 1] = lista[tamanho - i - 1], lista[i]
 
