@@ -31,3 +31,14 @@ print(nome)
 
 senha = input('Digite sua senha: ') or 'Sem senha'
 print(senha) # caso nada seja digitado, será retornado "sem senha", pois uma string vazia ('') é um falsy 
+
+# not - inverte valor lógico
+# not true = false
+# not false = true
+
+nome = input("Digite seu nome: ")
+
+if not nome:
+    print("Você digitou nenhum nome.")
+else:
+    print(f"Olá, {nome}")
