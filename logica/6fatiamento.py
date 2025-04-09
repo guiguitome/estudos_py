@@ -5,4 +5,4 @@ print(nome[4:]) # pega a partir do indice 4 e vai até o final da string (quando
 
 print(nome[:len(nome)]) # len é uma função que retorna o tamanho de uma string (nesse caso, 8)
 
-print(nome[::3]) 
+print(nome[::3]) # ele "pula" de 3 em 3
