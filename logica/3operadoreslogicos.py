@@ -1,7 +1,7 @@
 # Operadores logicos
 # and - todas as condições precisam ser verdadeiras 
 # qualquer valor que for falso na expressão fará que todo resto seja falso
-# 0 | 0.0 | '' | None -> Falsy
+# 0 | 0.0 | '' | None -> Falsy (falsy é um valor que o programa encara como falso, ex: 0, string vazia...)
 entrada = input("E para entrar, [S] para sair")
 senha_digit = input("senha: ")
 
@@ -38,7 +38,7 @@ print(senha) # caso nada seja digitado, será retornado "sem senha", pois uma st
 
 nome = input("Digite seu nome: ")
 
-if not nome:
+if not nome: 
     print("Você digitou nenhum nome.")
 else:
     print(f"Olá, {nome}")
