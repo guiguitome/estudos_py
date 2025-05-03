@@ -6,7 +6,7 @@ lista_2 = [] #forma mais usada / lista vazia
 
 print(bool(lista_2)) #lista vazia -> falsy
 
-#assim como as strings, listas possue índices
+#assim como as strings, listas possuem índices
 #         0   1      2            3    4
 #        -5  -4     -3           -2   -1
 lista = [123, True, "Guilherme", 1.2, []] # suporta quaisquer tipos
