@@ -1,9 +1,19 @@
-# Split - divide uma string
-frase = "ai que num sei oq, num sei oq lá"
-# sem paramentro, o split divide as palavras pelos whitespaces (\n, espaço, tab)
-lista_palavras = frase.split() #será feito uma lista das palavras separadas
-print(lista_palavras)
+#split
+frase = "ai qie num sei oq, num sei oq la"
+lista_frase = frase.split()
+print(lista_frase)
 
-lista_frases = frase.split(',') #o paramentro dita em qual caractere será feito a divisão
-print(lista_frases)
+#com parâmetro
+lista_frase = frase.split(',')
+print(lista_frase)
 
+# manipulando a lista e strip
+lista_frase_corrigida = []
+for i, frase in enumerate(lista_frase):
+    lista_frase_corrigida.append(lista_frase[i].strip())
+
+print(lista_frase_corrigida)
+
+#join
+frase_unida = " ".join(lista_frase_corrigida)
+print(frase_unida)
