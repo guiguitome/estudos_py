@@ -3,8 +3,8 @@ familia = ['Guilherme', "Sara", "Socorro", "Jesus"]
 
 # forma 1
 for pessoa in familia:
-    print(pessoa, end=' ') #esse end determina como vai acabar a linha, no caso aqui sendo so espaçado em vez de quebrar a linha
+    print(pessoa, end=' ') #esse end determina como vai acabar a linha, no caso aqui sendo so espaçado em vez de quebrar a linha (\n)
 
 print('\n--------------------')
 # forma 2
-print(*familia)
+print(*familia) #esse * informa que a var é iterável
